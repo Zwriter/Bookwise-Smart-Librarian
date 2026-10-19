@@ -1,4 +1,4 @@
-<h1 align="center"> Smart Librarian AI-RAG </h1>
+<h1 align="center"><img src="src/bookwise-icon.png" alt="" width="30"> Bookwise</h1>
 
 
 ## Contents
@@ -9,7 +9,7 @@
 
 ## Overview
 
-Smart Librarian is a full-stack book recommendation application. The React frontend sends natural-language questions to a FastAPI backend, which combines input filtering, semantic retrieval from a Chroma catalogue, OpenAI recommendations, local summaries, and Google Books fallback search.
+Bookwise is a full-stack book recommendation application. The React frontend sends natural-language questions to a FastAPI backend, which combines input filtering, semantic retrieval from a Chroma catalogue, OpenAI recommendations, local summaries, and Google Books fallback search.
 
 The chatbox can:
 
@@ -86,8 +86,8 @@ The complete Compose configuration and volume guidance are in [docs/docker-compo
 - [Backend](backend/README.md)
 - [Frontend](frontend/README.md)
 - [REST API Contract](backend/docs/api.md)
-- [Architecture](docs/architecture.md)
-- [Docker Compose](docs/docker-compose.md)
-- [Operations & Observability](docs/operations.md)
+- [Architecture](src/docs/architecture.md)
+- [Docker Compose](src/docs/docker-compose.md)
+- [Operations & Observability](src/docs/operations.md)
 - [Backend Privacy Rules](backend/docs/privacy.md)
-- [Troubleshooting](docs/troubleshooting.md)
+- [Troubleshooting](src/docs/troubleshooting.md)

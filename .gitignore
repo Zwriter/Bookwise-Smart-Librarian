@@ -14,3 +14,4 @@ backend/secrets/
 backend/.chroma/
 backend/logs/
 node_modules/
+desktop.ini
